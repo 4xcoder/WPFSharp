@@ -9,6 +9,7 @@ Introduction
 WPFSharp is a Fluent API for WPF functions.  It is designed to be a DSL in C# that helps code WPF layouts.  It is intended for two use cases:
 
 1) Small projects where a XAML file is inconvient 
+
 2) Complex run-time generated WPF layouts where the code-behind gets messy
 
 Add/Removing WPF Controls
