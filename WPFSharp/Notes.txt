@@ -1,0 +1,7 @@
+﻿public LambdaFunction<T> Property {
+	get { return Lambdas["Property"] };
+	set { C.Property = value(); }
+}
+
+can a class LambdaFunction<T> be implicty class to a function when called, and to a value when read?
+
