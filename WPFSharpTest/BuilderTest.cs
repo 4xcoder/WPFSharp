@@ -12,7 +12,7 @@ namespace WPFSharpTest {
             Height( 600 ).
             Visibility( System.Windows.Visibility.Visible ).
             Content(
-                DockPanel.Make().LastChildFill(false).Children(
+                DockPanel.Make().LastChildFill(true).Children(
                 Button.Make().Content( "Hello, World" ).EventLoaded((o,e) => Initialized( o, e ) ).DockAt( System.Windows.Controls.Dock.Left ),
                 Button.Make().Content( "Goodbye, World" ).EventClick((o,e) => Click( o, e ) ).DockAt( System.Windows.Controls.Dock.Right ),
                 Button.Make().Content( "Middle" )
